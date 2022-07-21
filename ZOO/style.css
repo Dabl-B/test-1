@@ -1,0 +1,153 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px ;
+    
+    
+    
+}
+
+
+a {
+text-decoration: none;
+color: #000;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    min-width: 900px;
+    
+    height: 145px;
+    justify-content: space-between;
+    margin: 0;
+    position: inherit;
+    
+    
+
+}
+
+    .logo { 
+     margin-left: 150px;
+     margin-top: 20px;
+     position: relative;
+     width: 85px;
+     height: 85px;
+
+  
+    }
+    .search { 
+        position: relative;
+        width: 270px;
+        height: 50px;
+        margin-top: 43px;
+        margin-right: 500px ;
+       
+
+
+        }
+
+        .search_in { 
+            width: 250px;
+            height: 35px;
+            border: 2px #000 solid;
+            
+         
+        }
+
+
+    .nav {
+        font-size: 18px;
+        font-weight: 400;
+        position: relative;
+        margin-top: 53px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 0px;
+
+    
+    }
+
+    .nav_link {
+    text-decoration: none;
+    color: #000;
+    transition: color .2 linear;
+    }   
+
+    .nav_link:hover {
+    color: silver;
+    }  
+
+   
+
+
+.mid {  
+    
+    background-image: url("fon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    width: 100%;
+    min-width: 1200px;
+    height: 670px;
+    margin: 0;
+    
+    position: inherit;
+    justify-content: space-between;
+    
+    
+}
+
+
+    .mid_hd {
+    font-size: 64px;
+    font-weight: 700;
+    position: relative;
+    width: 640px;
+    height: 228px;
+    
+    padding-left: 130px;
+    padding-top: 77px ;
+
+    }
+
+
+    .mid_md {
+        position: relative;
+        font-size: 24px;
+        font-weight: 400px;
+        width: 535px;
+        height: 85px;
+        padding: 50px 0px 0px 134px;
+
+
+    }
+
+
+    .btn_text {
+        
+        background-color: #FD9649;
+        width: 310px;
+        height: 72px;
+        border-radius: 50px;
+        font-size: 24px;
+        
+        line-height: 3em;
+        font-weight: 600;
+        padding: 10px 30px;
+        margin: 50px 0px 0px 134px;
+        
+        
+
+
+
+
+    }
+
+
+    .btn_logo { 
+       
+
+       
+       
+
+    } 
